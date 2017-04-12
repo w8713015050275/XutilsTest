@@ -1,0 +1,16 @@
+Index: app/src/main/java/org/xutils/http/loader/ObjectLoader.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/org/xutils/http/loader/ObjectLoader.java	(revision )
++++ app/src/main/java/org/xutils/http/loader/ObjectLoader.java	(revision )
+@@ -69,6 +69,7 @@
+                 throw new IllegalArgumentException("not found @HttpResponse from " + itemType);
+             }
+         } else {
++            //objectClass即为自定义的Response类，获得他的HttpResponse的注解
+             HttpResponse response = objectClass.getAnnotation(HttpResponse.class);
+             if (response != null) {
+                 try {
+\ No newline at end of file

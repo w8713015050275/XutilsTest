@@ -1,0 +1,15 @@
+Index: app/src/main/java/org/xutils/http/RequestParams.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/org/xutils/http/RequestParams.java	(revision )
++++ app/src/main/java/org/xutils/http/RequestParams.java	(revision )
+@@ -87,6 +87,7 @@
+     /**
+      * 通过@HttpRequest注解或构造函数传入的builder，去初始化RequestParams
+      * 检查uri
++     * 初始化一些参数 initEntityParams()
+      * 加入一些通用参数
+      * 加入签名
+      * @throws Throwable
