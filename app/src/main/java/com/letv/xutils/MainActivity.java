@@ -7,11 +7,9 @@ import android.util.Log;
 import android.widget.ImageView;
 
 import org.xutils.common.Callback;
-import org.xutils.http.RequestParams;
-import org.xutils.http.app.ResponseParser;
 import org.xutils.image.ImageOptions;
 import org.xutils.x;
-
+//Test
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "zhc";
     private static String URL = "http://www.baidu.com/img/bd_logo1.png";
